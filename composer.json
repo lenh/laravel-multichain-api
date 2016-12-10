@@ -3,7 +3,7 @@
     "description": "Laravel 5 wrapper for the Mulitchain php library by Kunstmaan (http://www.kunstmaan.be/)",
     "license": "MIT",
 	"keywords": ["laravel", "multichain", "blockchain", "api"],
-    "authors": [
+	"authors": [
         {
             "name": "Leonard Harley",
             "email": "leonard.harley@gmail.com"
