@@ -1,6 +1,7 @@
 # Laravel Multichain API
 [![license](https://img.shields.io/github/license/lenh/laravel-multichain-api.svg)]()
 [![Packagist](https://img.shields.io/packagist/v/lenh/laravel-multichain-api.svg)]()
+[![Build Status](https://travis-ci.org/lenh/laravel-multichain-api.svg?branch=master)](https://travis-ci.org/lenh/laravel-multichain-api)
 
 Laravel 5.x API wrapper package for the Multichain blockchain. Please read the Credits. 
 
