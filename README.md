@@ -17,13 +17,6 @@ Require the package
 ``` bash
 $ composer require lenh/laravel-multichain-api
 ```
-Publish configuration file
-
-``` bash
-$ php artisan vendor:publish --tag=config
-```
-This will publish the `multichain.php` configuration file to `config` directory.
-
 Add service provider class to `providers` section of `app.php` located in `config` directory 
 ``` 
 'providers' => [
@@ -42,6 +35,12 @@ Add facade to `aliases` section of `app.php` located in `config` directory.
 		        'MultiChain' => Lenh\Multichain\Facade\MultiChain::class,
 ]
 ```
+Publish configuration file
+
+``` bash
+$ php artisan vendor:publish --tag=config
+```
+This will publish the `multichain.php` configuration file to `config` directory.
 ## Configuration
 Edit `multichain.php` loated in the `config` directory providing the required credentials as per the `multichain.conf` file on the node you wish to access.
 
