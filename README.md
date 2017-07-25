@@ -26,7 +26,7 @@ Add service provider class to `providers` section of `app.php` located in `confi
         .
         .
         .
-		        Lenh\Translate\MultiChainServiceProvider::class,
+		        Lenh\Multichain\MultiChainServiceProvider::class,
 ]
 ```
 Add facade to `aliases` section of `app.php` located in `config` directory. 
